@@ -1,0 +1,12 @@
+.uploader {
+  position: fixed;
+  background: #fff;
+  width: 1000px;
+  height: 100px;
+  z-index: 1;
+  border: 1px solid blue;
+}
+
+.uploader [type="file"] {
+  display: none;
+}

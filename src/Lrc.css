@@ -1,0 +1,13 @@
+.lrc {
+  border: 1px solid green;
+  min-height: 100vh;
+  padding-top: 350px;
+}
+
+.lrcTime button {
+  display: none;
+}
+
+.lrcTime:hover button {
+  display: inline-block;
+}

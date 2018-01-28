@@ -1,0 +1,40 @@
+.player {
+  position: fixed;
+  background: #fff;
+  top: 100px;
+  height: 250px;
+  width: 1000px;
+  z-index: 1;
+  border: 1px solid red;
+}
+
+.timeline {
+  margin-top: 10px;
+  background: #ccc;
+}
+
+.innerTimeline {
+  position: relative;
+  background: #333;
+}
+
+.timeline,
+.innerTimeline {
+  height: 10px;
+}
+
+.innerTimelineDot {
+  top: 50%;
+  right: -7px;
+  margin-top: -7px;
+  cursor: pointer;
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background: red;
+}
+
+.wavesurfer {
+  height: 150px;
+}
